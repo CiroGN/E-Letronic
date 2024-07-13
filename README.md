@@ -1,7 +1,7 @@
 # E-Letronic
  Site e-commerce de eletronicos
  Projeto de Desenvolvimento Web da faculdade que é
- hospedado em servidor local
+ hospedado em servidor local sem utilização de framework nem API.
 
  ## Tecnologias utilizadas:
  - HTML
