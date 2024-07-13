@@ -11,4 +11,4 @@
  - MySQL
 
 ## Bibliotecas utilizadas:
-- fontawesome-free-web
+- Fontawesome-free-web
