@@ -2,7 +2,7 @@
 session_start();
 
 // Estabelece a conexão com o banco de dados
-$conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
+$conexao = mysqli_connect("", "", "", "");
 
 // Executa a consulta SQL para recuperar os produtos no carrinho do usuário
 $resultado = mysqli_query($conexao, "
