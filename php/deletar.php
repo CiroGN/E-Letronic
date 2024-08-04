@@ -4,7 +4,7 @@
 $selecionado = $_POST['selecionado'];
 
 // Estabelece a conexão com o banco de dados
-$conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
+$conexao = mysqli_connect("", "", "", "");
 
 // Exclui os itens relacionados ao produto da tabela 'carrinho'
 mysqli_query($conexao, "DELETE FROM carrinho WHERE id_produto = (SELECT id FROM produtos WHERE nome = '$selecionado')");
