@@ -6,7 +6,7 @@
     session_start();
 
     // Conecta-se ao banco de dados
-    $conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
+    $conexao = mysqli_connect("localhost:3306", "root", "", "eletronico_loja");
 
     // Executa uma consulta SQL para obter informações do usuário com base no email
     $query = mysqli_query($conexao, "
