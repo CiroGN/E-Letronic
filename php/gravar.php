@@ -6,7 +6,7 @@ $preco = $_POST['preco'];
 $arquivo = $_FILES['arquivo'];
 
 // Estabelece a conexão com o banco de dados
-$conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
+$conexao = mysqli_connect("", "", "", "");
 
 // Verifica se o arquivo é uma imagem PNG ou JPEG
 if ($arquivo['type'] == 'image/png' || $arquivo['type'] == 'image/jpeg') {
