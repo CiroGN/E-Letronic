@@ -1,6 +1,6 @@
 <?php
     // Estabelece a conexão com o banco de dados
-    $conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
+    $conexao = mysqli_connect("localhost:3306", "root", "", "eletronico_loja");
 
     // Executa a consulta para obter todos os produtos
     $result = mysqli_query($conexao, "SELECT * FROM produtos");
