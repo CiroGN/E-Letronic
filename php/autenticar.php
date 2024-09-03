@@ -1,7 +1,7 @@
 <?php
 
 // Estabelece a conexão com o banco de dados
-$conexao = mysqli_connect("", "", "", "");
+$conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
 
 // Define a consulta SQL para selecionar todos os registros da tabela "usuario"
 $query = "SELECT * FROM usuario";

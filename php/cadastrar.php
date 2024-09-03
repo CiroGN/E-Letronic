@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $hash = $_POST['senha'];
 
 // Estabelece a conexão com o banco de dados
-$conexao = mysqli_connect("", "", "", "");
+$conexao = mysqli_connect("localhost:3306", "root", "Ci16022005", "eletronico_loja");
 
 // Monta a consulta SQL para inserir os dados na tabela "usuario"
 $query = "INSERT INTO usuario (nome, email, hash, adm) VALUES ('$nome', '$email', '$hash', 0)";
