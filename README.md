@@ -12,4 +12,4 @@
  - MySQL
 
 ## Bibliotecas utilizadas:
-- Fontawesome-free-web
+- Fontawesome-free-web (Ícones) 
